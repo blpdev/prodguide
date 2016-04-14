@@ -1,5 +1,5 @@
 #Vapornation's Suite Guide to Dankness
-(Copyright Vapornation 2016)
+
 
 ##Contents
 1. Vapornation Product Guide
@@ -31,3 +31,5 @@ Heavily modified version of the SlickQuiz plugin. Designed to determine whether 
 4. Lightbox
 5. SlickQuiz
 6. Boot-Strap Pagination
+
+(Copyright Vapornation 2016)
