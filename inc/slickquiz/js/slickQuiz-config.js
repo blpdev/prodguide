@@ -2,7 +2,7 @@
 
 
 var quizJSON = {
-"chapter_1":{
+"chapter_1":{  
 	"info": {
 		"name":    "CH.1 Test",
 		"main":    "<p>Hope you studied!?</p>",
