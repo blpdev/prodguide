@@ -19,9 +19,9 @@ An informational guide about the various aspects and products associated with Va
 Heavily modified version of the SlickQuiz plugin. Designed to determine whether or not our new trainees are ready to become fully-fledged for sales-people. 
 
 ##### Technologies Used
-1.PHP
-2.Javascript
-3.JQuery
+1. PHP
+2. Javascript
+3. JQuery
 4. MySQL
 
 ######Libraries used
