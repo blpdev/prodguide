@@ -16,7 +16,7 @@ Uses MySQL queries to dynamically aggregate product information onto a generated
 An informational guide about the various aspects and products associated with Vapornation and the industry.
 
 #### Vapornation Quiz
-Heavily modified version of the SlickQuiz plugin. Designed to determine whether or not our new trainees are ready to become fully-fledged for sales-people. 
+Heavily modified version of the SlickQuiz plugin. Designed to determine whether or not our new trainees are ready to become fully-fledged sales-people. 
 
 ##### Technologies Used
 1. PHP
