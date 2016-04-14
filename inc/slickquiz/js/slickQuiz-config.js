@@ -3,7 +3,7 @@
 
 var quizJSON = {
 	"info": {
-		"name":    "CH.1 Test",
+		"name":    "CH.  1 Test",
 		"main":    "<p>Hope you studied!?</p>",
 		"results": "<h5>GRATS</h5><p>YOU KNOW ABOUT VAPES</p>",
 		"level1":  "Vapornation King",
