@@ -18,6 +18,7 @@
             $element = $(element),
             _element = '#' + $element.attr('id'),
             defaults = {
+					 quizChapter: 2,
                 checkAnswerText:  'Check My Answer!',
                 nextQuestionText: 'Next &raquo;',
                 backButtonText: '',
@@ -158,15 +159,15 @@
 
 
         plugin.config = $.extend(defaults, options);
-
+	 
         // Set via json option or quizJSON variable (see slickQuiz-config.js)
-        var quizValues = (plugin.config.json ? plugin.config.json : typeof quizJSON != 'undefined' ? quizJSON : null);
+        var quizValues = (plugin.config.json ? plugin.config.json : typeof quizJSON != 'undefined' ? quizJSON['chapter_'+plugin.config.quizChapter] : null);
 
         // Get questions, possibly sorted randomly
         var questions = plugin.config.randomSortQuestions ?
                         quizValues.questions.sort(function() { return (Math.round(Math.random())-0.5); }) :
                         quizValues.questions;
-
+								
         // Count the number of questions
         var questionCount = questions.length;
 

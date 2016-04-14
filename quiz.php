@@ -34,7 +34,7 @@ $(document).ready(function() {
      randomSortQuestions: true,
      timerLength: 6000,
      warningTimer: 55,
-	  //debug: true
+	  quizChapter:1,
      });
 });
 </script>
