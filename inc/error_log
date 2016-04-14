@@ -1,0 +1,1 @@
+[05-Apr-2016 11:25:35 America/Los_Angeles] PHP Fatal error:  Call to a member function getResource() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 312
