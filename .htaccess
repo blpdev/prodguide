@@ -1,16 +1,21 @@
-Options +FollowSymLinks
-RewriteEngine on
- #  359 VNW:
-RewriteCond %{REMOTE_HOST} !^69.75.73.162
- #  Jeff:
-RewriteCond %{REMOTE_HOST} !^68.170.70.60
- #  Ryan:
-RewriteCond %{REMOTE_HOST} !^23.243.21.43
-RewriteRule .* http://www.google.com [R=302,L]
-RewriteCond %{HTTP_HOST} !^$
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteCond %{HTTPS}s ^on(s)|
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-# RewriteRule ^learning-center/chapter/(.*)$ learning_center.php?chapter_id=$1 [L]
+Options +FollowSymLinks
+RewriteEngine on
+ #  359 VNW:
+RewriteCond %{REMOTE_HOST} !^69.75.73.162
+ #  Jeff:
+RewriteCond %{REMOTE_HOST} !^68.170.70.60
+ #  Ryan:
+RewriteCond %{REMOTE_HOST} !^23.243.21.43
+ # Jonathan Lee (new employee)
+RewriteCond %{REMOTE_HOST} !^2605:e000:a8c1:9900:bcb7:3999:f5d1:bd5a
+ # My Cell
+RewriteCond %{REMOTE_HOST} !^2607:fb90:2846:7432:b119:4540:db44:9366
+RewriteRule .* http://www.google.com [R=302,L]
+RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# RewriteRule ^learning-center/chapter/(.*)$ learning_center.php?chapter_id=$1 [L]
 RewriteRule ^learning-center/?$ learning_center.php [L]
+RewriteRule ^learning-center/quiz/?$ quiz.php [L]

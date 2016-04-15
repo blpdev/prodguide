@@ -1,1 +1,78 @@
 [05-Apr-2016 11:25:35 America/Los_Angeles] PHP Fatal error:  Call to a member function getResource() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 312
+[05-Apr-2016 11:54:39 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:54:57 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:55:27 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:56:10 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:56:29 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:57:18 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:57:25 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:57:58 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:59:01 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 11:59:44 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 12:00:06 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 12:02:20 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 343
+[05-Apr-2016 12:03:19 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 344
+[05-Apr-2016 12:03:51 America/Los_Angeles] PHP Fatal error:  Call to a member function getCategoryIds() on null in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 344
+[05-Apr-2016 12:05:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'Type' (T_STRING) in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 342
+[05-Apr-2016 12:06:03 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'Type' (T_STRING) in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 342
+[05-Apr-2016 12:19:15 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 536
+[05-Apr-2016 12:20:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 540
+[05-Apr-2016 12:20:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 540
+[05-Apr-2016 12:20:42 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 540
+[05-Apr-2016 12:20:43 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 540
+[05-Apr-2016 12:20:44 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 540
+[05-Apr-2016 14:36:37 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 457
+[05-Apr-2016 14:36:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 457
+[05-Apr-2016 16:12:59 America/Los_Angeles] PHP Fatal error:  Call to undefined function HtmlDecode() in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 388
+[05-Apr-2016 16:13:52 America/Los_Angeles] PHP Fatal error:  Call to undefined function HtmlDecode() in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 388
+[05-Apr-2016 16:14:46 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 388
+[05-Apr-2016 16:37:35 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../images/header_icons/infinity.jpg' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php:279
+Stack trace:
+#0 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(1220): FPDF->Error('Missing or inco...')
+#1 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(888): FPDF->_parsejpg('../images/heade...')
+#2 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(493): FPDF->Image('../images/heade...', 115, 42, 20, 20)
+#3 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(145): drawHeader(Object(FPDF), 65, 37, Object(VaporNation_Dailyspecials_Model_Catalog_Product))
+#4 {main}
+  thrown in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 279
+[05-Apr-2016 16:38:05 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../images/header_icons/infinity.jpg' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php:279
+Stack trace:
+#0 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(1220): FPDF->Error('Missing or inco...')
+#1 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(888): FPDF->_parsejpg('../images/heade...')
+#2 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(493): FPDF->Image('../images/heade...', 115, 42, 20, 20)
+#3 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(145): drawHeader(Object(FPDF), 65, 37, Object(VaporNation_Dailyspecials_Model_Catalog_Product))
+#4 {main}
+  thrown in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 279
+[05-Apr-2016 16:38:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../images/header_icons/infinity.jpg' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php:279
+Stack trace:
+#0 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(1220): FPDF->Error('Missing or inco...')
+#1 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(888): FPDF->_parsejpg('../images/heade...')
+#2 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(493): FPDF->Image('../images/heade...', 115, 32, 20, 20)
+#3 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(145): drawHeader(Object(FPDF), 65, 27, Object(VaporNation_Dailyspecials_Model_Catalog_Product))
+#4 {main}
+  thrown in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 279
+[05-Apr-2016 16:38:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../images/header_icons/infinity.jpg' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php:279
+Stack trace:
+#0 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(1220): FPDF->Error('Missing or inco...')
+#1 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(888): FPDF->_parsejpg('../images/heade...')
+#2 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(493): FPDF->Image('../images/heade...', 115, 32, 20, 20)
+#3 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(145): drawHeader(Object(FPDF), 65, 27, Object(VaporNation_Dailyspecials_Model_Catalog_Product))
+#4 {main}
+  thrown in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 279
+[05-Apr-2016 16:38:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Missing or incorrect image file: ../images/header_icons/infinity.jpg' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php:279
+Stack trace:
+#0 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(1220): FPDF->Error('Missing or inco...')
+#1 /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php(888): FPDF->_parsejpg('../images/heade...')
+#2 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(493): FPDF->Image('../images/heade...', 115, 32, 20, 20)
+#3 /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php(145): drawHeader(Object(FPDF), 65, 27, Object(VaporNation_Dailyspecials_Model_Catalog_Product))
+#4 {main}
+  thrown in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 279
+[05-Apr-2016 16:46:55 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 917
+[05-Apr-2016 16:47:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 917
+[06-Apr-2016 15:37:56 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 433
+[06-Apr-2016 15:40:19 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 377
+[06-Apr-2016 15:40:22 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/blpecvp2009/public_html/store/prodguide/inc/fpdf/fpdf.php on line 377
+[06-Apr-2016 15:40:23 America/Los_Angeles] PHP Fatal error:  Class 'FPDF' not found in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 15
+[06-Apr-2016 16:23:08 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 933
+[06-Apr-2016 16:23:11 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 933
+[06-Apr-2016 16:23:11 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 933
+[06-Apr-2016 16:23:13 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file in /home/blpecvp2009/public_html/store/prodguide/inc/pdf_generator.php on line 933

@@ -1,78 +1,78 @@
-<!doctype html><html><head><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script><meta charset="utf-8"></head><body>
-
-<style>
-.pdf_generator { border:1px solid black; display:none;  }
-.show{position:absolute; bottom:0; cursor:pointer;}
-.item{margin-left:10px; text-align:center;}
-.add_to_pdf, .remove_from_pdf, .show_pages { display:inline-block; margin:0 10px 10px 0; border:1px solid #888; background-color:#1px solid #F5F5F5; padding:5px 10px; border-radius:7px; cursor:pointer; }
-</style>
-
-<div class="add_to_pdf" data-product_id="154" data-product_name="Arizer Solo">Add Arizer Solo (ID 154) to PDF</div>
-<div class="add_to_pdf" data-product_id="49" data-product_name="Vapir Rise">Add Vapir Rise (ID 49) to PDF</div>
-<div class="add_to_pdf" data-product_id="210" data-product_name="Grinder">Add Grinder (ID 210) to PDF</div>
-<!--<br>
-<div class="remove_from_pdf" data-product_id="154" data-product_name="Arizer Solo">Remove Arizer Solo (ID 154) from PDF</div>
-<div class="remove_from_pdf" data-product_id="49" data-product_name="Vapir Rise">Remove Vapir Rise (ID 49) from PDF</div>
-<div class="remove_from_pdf" data-product_id="210" data-product_name="Grinder">Remove Grinder (ID 210) from PDF</div>-->
-<br>
-<div class="show_pages">Show Pages</div>
-<div class="pdf_generator" style="position:relative">
-<h3 style="border-bottom:1px solid black; text-align:center;">PDF Generator</h3>
-<ol></ol>
-
-<div class="show" style=" text-align:center; border-top:1px dotted black; width:100%;">Generate PDF</div>
-</div>
-
-<script>
-var PDFGenerator = function() {
-	var pdf_generator = this;
-	
-	this.pages = [];
-	
-	jQuery(document).on('click', ".add_to_pdf", function() {
-		pdf_generator.addProduct(jQuery(this));
-		});
-      
-	jQuery(document).on('click', ".remove_from_pdf", function() {
-		pdf_generator.removeProduct(jQuery(this));
-		});
-        
-	jQuery(document).on('click', ".show", function() {
-		pdf_generator.showPages();
-		});
-     
-     
-	}
-
-PDFGenerator.prototype.addProduct = function(jq_obj) {
-   if($.inArray(jq_obj.data('product_id'), this.pages) == -1) {
-      $('.pdf_generator').css('display','block');
-      //alert("Adding product " + jq_obj.data('product_name') + ", ID " + jq_obj.data('product_id'));
-      this.pages.push(jq_obj.data('product_id'));
-      $('.pdf_generator ol').append( "<li class='item'>" + jq_obj.data('product_name') + "&nbsp;&nbsp;" + "&#x25B2;" + "&nbsp;&nbsp;" + "&#x25BC;" + "&nbsp;&nbsp;"+
-      "<span class='remove_from_pdf' data-product_name='" + jq_obj.data('product_name') + "'data-product_id=" +
-      jq_obj.data('product_id') + "><img src='del.gif'></span></li>");
-      }  
-	}
-
-PDFGenerator.prototype.removeProduct = function(jq_obj) {
-	//alert("Removing product " + jq_obj.data('product_name') + ", ID " + jq_obj.data('product_id'));
-	var index = this.pages.indexOf(jq_obj.data('product_id'));
-	if(index > -1) {
-		this.pages.splice(index, 1);
-		}
-   jq_obj.parent().remove();
-   if($('.item').length==0){
-      $('.pdf_generator').hide()
-      }
-	}
-   
-PDFGenerator.prototype.showPages = function() {
-	alert("Generating a PDF with the following product IDs: " + this.pages.join(', '));
-	}
-
-var pdf_generator = new PDFGenerator();
-
-</script>
-
-</body></html>
+<!doctype html><html><head><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script><meta charset="utf-8"></head><body>
+
+<style>
+.pdf_generator { border:1px solid black; display:none;  }
+.show{position:absolute; bottom:0; cursor:pointer;}
+.item{margin-left:10px; text-align:center;}
+.add_to_pdf, .remove_from_pdf, .show_pages { display:inline-block; margin:0 10px 10px 0; border:1px solid #888; background-color:#1px solid #F5F5F5; padding:5px 10px; border-radius:7px; cursor:pointer; }
+</style>
+
+<div class="add_to_pdf" data-product_id="154" data-product_name="Arizer Solo">Add Arizer Solo (ID 154) to PDF</div>
+<div class="add_to_pdf" data-product_id="49" data-product_name="Vapir Rise">Add Vapir Rise (ID 49) to PDF</div>
+<div class="add_to_pdf" data-product_id="210" data-product_name="Grinder">Add Grinder (ID 210) to PDF</div>
+<!--<br>
+<div class="remove_from_pdf" data-product_id="154" data-product_name="Arizer Solo">Remove Arizer Solo (ID 154) from PDF</div>
+<div class="remove_from_pdf" data-product_id="49" data-product_name="Vapir Rise">Remove Vapir Rise (ID 49) from PDF</div>
+<div class="remove_from_pdf" data-product_id="210" data-product_name="Grinder">Remove Grinder (ID 210) from PDF</div>-->
+<br>
+<div class="show_pages">Show Pages</div>
+<div class="pdf_generator" style="position:relative">
+<h3 style="border-bottom:1px solid black; text-align:center;">PDF Generator</h3>
+<ol></ol>
+
+<div class="show" style=" text-align:center; border-top:1px dotted black; width:100%;">Generate PDF</div>
+</div>
+
+<script>
+var PDFGenerator = function() {
+	var pdf_generator = this;
+	
+	this.pages = [];
+	
+	jQuery(document).on('click', ".add_to_pdf", function() {
+		pdf_generator.addProduct(jQuery(this));
+		});
+      
+	jQuery(document).on('click', ".remove_from_pdf", function() {
+		pdf_generator.removeProduct(jQuery(this));
+		});
+        
+	jQuery(document).on('click', ".show", function() {
+		pdf_generator.showPages();
+		});
+     
+     
+	}
+
+PDFGenerator.prototype.addProduct = function(jq_obj) {
+   if($.inArray(jq_obj.data('product_id'), this.pages) == -1) {
+      $('.pdf_generator').css('display','block');
+      //alert("Adding product " + jq_obj.data('product_name') + ", ID " + jq_obj.data('product_id'));
+      this.pages.push(jq_obj.data('product_id'));
+      $('.pdf_generator ol').append( "<li class='item'>" + jq_obj.data('product_name') + "&nbsp;&nbsp;" + "&#x25B2;" + "&nbsp;&nbsp;" + "&#x25BC;" + "&nbsp;&nbsp;"+
+      "<span class='remove_from_pdf' data-product_name='" + jq_obj.data('product_name') + "'data-product_id=" +
+      jq_obj.data('product_id') + "><img src='del.gif'></span></li>");
+      }  
+	}
+
+PDFGenerator.prototype.removeProduct = function(jq_obj) {
+	//alert("Removing product " + jq_obj.data('product_name') + ", ID " + jq_obj.data('product_id'));
+	var index = this.pages.indexOf(jq_obj.data('product_id'));
+	if(index > -1) {
+		this.pages.splice(index, 1);
+		}
+   jq_obj.parent().remove();
+   if($('.item').length==0){
+      $('.pdf_generator').hide()
+      }
+	}
+   
+PDFGenerator.prototype.showPages = function() {
+	alert("Generating a PDF with the following product IDs: " + this.pages.join(', '));
+	}
+
+var pdf_generator = new PDFGenerator();
+
+</script>
+
+</body></html>

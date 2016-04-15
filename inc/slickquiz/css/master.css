@@ -1,12 +1,10 @@
 /* QUIZ STYLES */
 /* Styles to prettify the quiz page */
 
-html {
-    background: #eee;
-}
-
-body {
+.slickQuiz {
+	 position:relative;
     width: 800px;
+	 height:100%;
     margin: 0 auto;
     border: 2px solid #ccc;
     border-top: none;
@@ -16,7 +14,11 @@ body {
     font-size: 16px;
     color: #353535;
     line-height: 1.5em;
+	 background: #eee;
 }
+ul.responses{
+	padding:0px;
+	}
 
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
@@ -48,7 +50,7 @@ h6 {
 div.timer {
 	 position: absolute;
     top: 0;
-    right: 400px;
+    right: 0px;
     width:190px;
     height:50px;
     line-height:50px;
@@ -76,7 +78,7 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 	text-decoration: none;
 }
 .button:hover {
-    background-color:darkslategray;
+    background-color:darkcyan;
 }
 
 .startQuiz {
@@ -103,6 +105,11 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     clear: both;
 }
 
+.button:hover, .button:focus {
+	text-decoration:none !important;
+	background-color:darkcyan !important;
+	color:white !important
+	}
 .questionCount {
     font-size: 14px;
     font-style: italic;
@@ -114,18 +121,20 @@ ol li { list-style-type: decimal; margin-left: 20px; }
 ol.questions {
     margin-top: 20px;
     margin-left: 0;
+	 padding:0px;
 }
 ol.questions li {
     margin-left: 0;
 }
 
 ul.answers {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
+	 padding:0px;
 }
 
 ul.responses li {
-    margin: 10px 20px 20px;
+    margin: 10px 0px 20px;
 }
 ul.responses li p span {
     display: block;

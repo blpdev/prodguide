@@ -3,13 +3,39 @@ require_once '../app/Mage.php';
 umask(0);
 Mage::app('default');
 Mage::getSingleton('core/session', array('name' => 'frontend'));
+
+$additional_js = "";
+$additional_css = "";
+$page_title = "VaporNation Product Guide";
+$additional_body = "";
+$show_hot_categories = false;
+switch($CURRENT_PAGE) {
+	case "index":
+		$page_title .= "";
+		$header_file = "default";
+		$show_hot_categories = true;
+		break;
+	case "learning_center":
+		$page_title .= " - Learning Center";
+		$header_file = "learningcenter";
+		break;
+	case "quiz":
+		//$additional_css .= '<link href="/prodguide/inc/slickquiz/css/reset.css" media="screen" rel="stylesheet" type="text/css">';
+		$additional_css .= '<link href="/prodguide/inc/slickquiz/css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">';
+		$additional_css .= '<link href="/prodguide/inc/slickquiz/css/master.css" media="screen" rel="stylesheet" type="text/css">';
+		$page_title .= " - Learning Center - Quiz";
+		$header_file = "learningcenter";
+		//$additional_body .= ' id="slickQuiz"';
+		break;
+	}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="robots" content="NOINDEX,NOFOLLOW" />
-<title>VaporNation Product Guide</title>
+<title><?=$page_title;?></title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <link rel="icon" href="http://www.vapornation.com/skin/frontend/vapornation/default/favicon.ico" type="image/x-icon" />
 <link href="/prodguide/inc/lightbox/css/lightbox.css" rel="stylsheet" />
@@ -20,6 +46,8 @@ Mage::getSingleton('core/session', array('name' => 'frontend'));
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylsheet" />
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<?=$additional_css;?>
+<?=$additional_js;?>
 <style>
 /* Bootstrap updates */
 li.dropdown{ font-size:22px; font-weight:bold; }
@@ -47,24 +75,8 @@ body { margin-bottom:70px; } /* for Sticky Footer */
 pre { padding:0px 2px; display:inline; background-color:#eee; border:1px solid #ddd; }
 </style>
 </head>
-<body>
+<body<?=$additional_body;?>>
 <?php
-if(strpos($_SERVER['PHP_SELF'], "learning_center") !== false) {
-	require_once("nav_learningcenter.php");
-	//require_once("hot_categories.php");
-	}
-else {
-	require_once("nav_default.php");
-	require_once("hot_categories.php");
-	}
-
-/*
-$logged_in = false;
-if($logged_in) {
-	require_once("nav_loggedin.php");
-	}
-else {
-	require_once("nav_loggedout.php");
-	}
-*/
+require_once("nav_".$header_file.".php");
+if($show_hot_categories) { require_once("hot_categories.php"); }
 ?>

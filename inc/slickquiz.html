@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slick Quiz</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<link href="slickquiz/css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+<link href="slickquiz/css/master.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="slickQuiz1" class="slickQuiz">
+   <h1 class="quizName"><!-- where the quiz name goes --></h1>
+   <div class="timer">
+      <span class="minute">00</span>:<span class="second">00</span>
+   </div>
+   <div class="quizArea">
+      <div class="quizHeader">
+         <!-- where the quiz main copy goes -->
+         <a class="button startQuiz" href="#">Get Started!</a>
+      </div>
+      <!-- where the quiz gets built -->
+   </div>
+   <div class="quizResults">
+      <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+      <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+      <div class="quizResultsCopy">
+          <!-- where the quiz result copy goes -->
+      </div>
+   </div>
+</div>
+
+
+
+
+<script>
+$(document).ready(function() {
+  var slick_quiz_1 = $('#slickQuiz1').slickQuiz({
+     preventUnanswered : true,
+     preventUnansweredText: "You must answer this question",
+     randomSortQuestions: true,
+     timerLength: 6000,
+     warningTimer: 55,
+	  //debug: true
+     });
+});
+</script>
+
+<script src="slickquiz/js/slickQuiz-config.js"></script>
+<script src="slickquiz/js/slickQuiz.js"></script>
+
+</body>
+</html>
