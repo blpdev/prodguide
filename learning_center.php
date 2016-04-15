@@ -51,6 +51,7 @@ border-bottom:none;
          
       		<h1>Learning Center</h1>
          	
+            
 				<?php require("learning_center/chapter_1.html"); ?>
 				<?php //require("learning_center/chapter_2.html"); ?>
 				<?php require("learning_center/chapter_3.html"); ?>

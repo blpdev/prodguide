@@ -1,5 +1,6 @@
 <?php $CURRENT_PAGE = "learning_center"; require_once("inc/header.php"); ?>
 
+
 <style>
 .learning_center .section_data{
              padding: 10px 0px 10px 0px;
