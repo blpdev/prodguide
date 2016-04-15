@@ -1,4 +1,4 @@
-<?php require_once("inc/header.php"); ?>
+<?php $CURRENT_PAGE = "learning_center"; require_once("inc/header.php"); ?>
 
 <style>
 .learning_center .section_data{
@@ -971,17 +971,15 @@ border-bottom:none;
 <h2>Chapter 3: Portable Vaporizers</h2>
 
 <ul>
-<li class="clickable">
-         <div class="section_title" data-sectionid="12">What is a Portable Vaporizer</div>
-         <div class="section_data" data-sectionid="12" style="display:none;">
-         <p>Ideal for on-the-go sessions, portable vaporizers are devices that allow you to vaporize on-the-go. Utilizing compact and durable designs that are conducive to road-use, portables typically offer multiple temperature options and heat settings. By combining pocket-sized convenience with advanced heating systems and enhanced versatility, portable vaporizers have become the preferred method of cannabis consumption for many people looking for a healthier alternative to traditional means. While portable vaporizers can’t quite match the power and dependability of desktop units, they do provide a quick and convenient way to medicate in a multitude of different situations and settings.</p>
-         </div>
-         </li>
-         
-
    <li class="clickable">
-         <div class="section_title" data-sectionid="13">How Do Portable Vaporizers Work?</div>
-         <div class="section_data" data-sectionid="13" style="display:none;">
+   	<div class="section_title" data-sectionid="12">What is a Portable Vaporizer</div>
+      <div class="section_data" data-sectionid="12" style="display:none;">
+         <p>Ideal for on-the-go sessions, portable vaporizers are devices that allow you to vaporize on-the-go. Utilizing compact and durable designs that are conducive to road-use, portables typically offer multiple temperature options and heat settings. By combining pocket-sized convenience with advanced heating systems and enhanced versatility, portable vaporizers have become the preferred method of cannabis consumption for many people looking for a healthier alternative to traditional means. While portable vaporizers can’t quite match the power and dependability of desktop units, they do provide a quick and convenient way to medicate in a multitude of different situations and settings.</p>
+      </div>
+   </li>
+   <li class="clickable">
+      <div class="section_title" data-sectionid="13">How Do Portable Vaporizers Work?</div>
+      <div class="section_data" data-sectionid="13" style="display:none;">
          <p>Unlike pen-style units that burn material by conduction, portable vaporizers are just that – actual vaporizers – which essentially “cook” loaded material through convection (although oftentimes combined with an element of conduction). Since the packed material never comes into direct contact with the heating element, very little combustion takes place, resulting in true vapor and minimal smoke.</p>
          <h3>Getting Started</h3>
          <p>The heating chamber (also referred to as an herb chamber or oven) is the area of the vaporizer in which dry blends are packed. Heating chambers can be constructed from many different materials, including stainless steel, ceramic or even glass. The material from which the chamber is constructed from will ultimately have an effect on the taste and consistency of the vapor produced.</p>
@@ -990,21 +988,8 @@ border-bottom:none;
          <p>Now that the chamber is packed full of green goodness, it’s time to set your vape to the optimal temperature. Heat settings differ from unit to unit, but for the most part, they usually fall between 300° - 400°F. Depending on the device, there can be as few as one preset optimized heat setting, or upwards to ten on more advanced units. While many (perhaps most) portables come equipped with several different heat settings (usually signified by different colored LED lights), there are many units nowadays that offer precise digital temperature control, allowing for a finely tailored vaporization experience.</p>
          <p>A few different factors should be taken into account when deciding on what temperature at which to vaporize. Lower temperatures are associated with light vapor, and are ideal for herbs with low moisture levels. At lower temperatures, vapor clouds won’t be as large or pronounced, but the effects will still be felt. </p>
          <p>A few different factors should be taken into account when deciding on what temperature at which to vaporize. Lower temperatures are associated with light vapor, and are ideal for herbs with low moisture levels. At lower temperatures, vapor clouds won’t be as large or pronounced, but the effects will still be felt. </p>
-         </div>
-         </li>
-
-   <li>How does a portable work?</li>
-
-   <li>Different types of portables</li>
-
-   <li>Most popular brands and units</li>
-
-   <li>Differences between portables vs desktops</li>
-
-   <li>Differences between different desktops of the same brand (e.g. Crafty vs Mighty)</li>
-
-   <li>What is a rebrand? Which units have similar rebrands? (e.g. K-Vape, G Pro, Pulsar Lux, etc.)</li>
-
+   	</div>
+   </li>
 </ul>
 
 
@@ -1013,7 +998,31 @@ border-bottom:none;
 
 <ul>
 
-   <li>Brief history of pen vapes</li>
+   <li class="clickable">
+   	<div class="section_title" data-sectionid="14">What is a Portable Vaporizer</div>
+      <div class="section_data" data-sectionid="14" style="display:none;">
+         <div id="slickQuiz">
+         <h1 class="quizName"><!-- where the quiz name goes --></h1>
+            <div class="timer">
+            	<span class="minute">00</span>:<span class="second">00</span>
+            </div>
+         <div class="quizArea">
+            <div class="quizHeader">
+            <!-- where the quiz main copy goes -->
+            	<a class="button startQuiz" href="#">Get Started!</a>
+            </div>
+            <!-- where the quiz gets built -->
+         </div>
+         <div class="quizResults">
+            <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
+            <h3 class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+            <div class="quizResultsCopy">
+            <!-- where the quiz result copy goes -->
+            </div>
+         </div>
+         </div>
+      </div>
+      </li>
 
    <li>Basic overview of different types of pen vapes</li>
 
