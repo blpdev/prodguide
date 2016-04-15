@@ -745,7 +745,23 @@
 
                 internal.method.turnKeyAndGo (key, options && options.callback ? options.callback : function () {});
             },
-
+				
+				
+				emailResults: function() {
+					jQuery.ajax({
+						type: 'POST',
+						dataType: "html",
+						url: '/vnprodcheck/dev/searchCat',
+						data: { 'category_id': category_id },
+						beforeSend : function (data) {
+							jQuery("#search_results").html("<i>loading...</i>");
+							},
+						success: function (data) {
+							jQuery("#search_results").html(data);
+							}
+						});
+					},
+				
             // Hides all questions, displays the final score and some conclusive information
             completeQuiz: function(options) {
 					 plugin.method.stopTimer();
