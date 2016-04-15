@@ -1,4 +1,4 @@
-#Vapornation's Suite Guide to Dankness
+#Vapornation's Sweet Guide to Dankness
 
 
 ##Contents
